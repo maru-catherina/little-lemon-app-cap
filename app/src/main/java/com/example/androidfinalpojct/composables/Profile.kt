@@ -61,7 +61,7 @@ fun Profile(context: Context, navHostController: NavHostController) {
             onValueChange ={},
             label = { Text(text = "First Name")},
             singleLine = true,
-            placeholder = { Text(text = "John")},
+            placeholder = { Text(text = "Kate")},
             colors = TextFieldDefaults.outlinedTextFieldColors(
                 disabledBorderColor = PrimaryGreen,
                 disabledLabelColor = PrimaryGreen
@@ -75,7 +75,7 @@ fun Profile(context: Context, navHostController: NavHostController) {
             onValueChange ={},
             label = { Text(text = "Last Name")},
             singleLine = true,
-            placeholder = { Text(text = "Doe")},
+            placeholder = { Text(text = "Smith")},
             colors = TextFieldDefaults.outlinedTextFieldColors(
                 disabledBorderColor = PrimaryGreen,
                 disabledLabelColor = PrimaryGreen
@@ -89,7 +89,7 @@ fun Profile(context: Context, navHostController: NavHostController) {
             onValueChange ={},
             label = { Text(text = "Email")},
             singleLine = true,
-            placeholder = { Text(text = "johndoe@gmail.com")},
+            placeholder = { Text(text = "katesmith@gmail.com")},
             colors = TextFieldDefaults.outlinedTextFieldColors(
                 disabledBorderColor = PrimaryGreen,
                 disabledLabelColor = PrimaryGreen
